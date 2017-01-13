@@ -1,8 +1,8 @@
-``` bash
+####参考资料列表:
 vue-Router api:http://router.vuejs.org/zh-cn/
 野狗云 api:https://docs.wilddog.com/api/sync/web/App.html
 canvas api:https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API
-```
+
 #### 问题：
 ``` bash
   Vue 还未实例化前， HTML 模板中的 “{{ }}”( Mustache 标签) 会暴露在用户界面上，也就是说页面有那么一瞬间会将所有的 “{{ }}” 都显示出来，如何解决？
