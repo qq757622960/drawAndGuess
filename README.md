@@ -1,7 +1,7 @@
 ####参考资料列表:
-vue-Router api:http://router.vuejs.org/zh-cn/
-野狗云 api:https://docs.wilddog.com/api/sync/web/App.html
-canvas api:https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API
+vue-Router api:http://router.vuejs.org/zh-cn/  
+野狗云 api:https://docs.wilddog.com/api/sync/web/App.html  
+canvas api:https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API  
 
 #### 问题：
 ``` bash
