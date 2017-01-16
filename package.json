@@ -70,7 +70,6 @@
     "opn": "^4.0.2",
     "ora": "^0.3.0",
     "shelljs": "^0.7.4",
-    "vue-touch": "^1.1.0",
     "url-loader": "^0.5.7",
     "vue-loader": "^10.0.0",
     "vue-style-loader": "^1.0.0",
