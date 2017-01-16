@@ -3,7 +3,7 @@ vue-Router api:http://router.vuejs.org/zh-cn/
 vue-Router example:https://github.com/vuejs/vue-router
 vue-Resource api:https://github.com/pagekit/vue-resource/blob/master/docs/http.md
 野狗云 api:https://docs.wilddog.com/api/sync/web/App.html
-canvas api:https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API
+canvas api:https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API  
 
 #### 问题：
 ``` bash
