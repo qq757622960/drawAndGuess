@@ -1,11 +1,12 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
+import WildDog from 'wilddog'
 
 import Login from './components/Login.vue'
 import './css/style.css'
 
-// 0. 如果使用模块化机制编程，導入Vue和VueRouter，要调用 Vue.use(VueRouter)
+// 调用模块
 Vue.use(VueResource)
 Vue.use(VueRouter)
 

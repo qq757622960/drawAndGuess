@@ -1,5 +1,13 @@
 <template>
   <div>
-    <h2>Login</h2>
+    <input/>
+    <input/>
   </div>
 </template>
+<script>
+export default{
+  beforeCreate(){
+    console.log('========================================');
+  }
+}
+</script>
