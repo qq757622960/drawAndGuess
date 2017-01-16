@@ -21,8 +21,6 @@ export default{
       wilddog.auth().signInWithEmailAndPassword(name,password).then(function(user){
         // 获取用户
         console.log(user);
-        //配置用户管理信息
-        this.setUserInfo(user.uid);
       }).catch(function (error) {
         // 错误处理
         alert(error);
@@ -34,16 +32,11 @@ export default{
       wilddog.auth().createUserWithEmailAndPassword(name,password).then(function(user){
         // 获取用户
         console.log(user);
-        //配置用户管理信息
-        this.setUserInfo(user.uid);
       }).catch(function (error) {
         // 错误处理
         alert(error);
       });
     }
-  },
-  setUserInfo(uid){
-    var ref = wilddog.sync().ref().child(uid);
   },
   beforeCreate(){
     console.log('=================初始化wilddog连接=======================');
