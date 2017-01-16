@@ -10,6 +10,7 @@ import './css/style.css'
 Vue.use(VueResource)
 Vue.use(VueRouter)
 
+require('wilddog')
 
 // 定义路由
 const routes = [
