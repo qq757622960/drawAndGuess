@@ -4,7 +4,8 @@ vue-Router example:https://github.com/vuejs/vue-router
 vue-Resource api:https://github.com/pagekit/vue-resource/blob/master/docs/http.md  
 野狗云 api:https://docs.wilddog.com/api/sync/web/App.html  
 canvas api:https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API    
-es6 语法教程:http://es6.ruanyifeng.com/
+es6 语法教程:http://es6.ruanyifeng.com/  
+element-ui:http://element.eleme.io/#/zh-CN  
 #### 问题：
 ``` bash
   # Vue 还未实例化前， HTML 模板中的 “{{ }}”( Mustache 标签) 会暴露在用户界面上，
