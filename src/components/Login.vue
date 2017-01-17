@@ -1,21 +1,21 @@
 <template>
   <div class="loginBox">
     <el-row>
-      <el-input type="text" placeholder="请输入内容" v-model="name">
-        <template slot="prepend">邮箱</template>
+      <el-input type="text" placeholder="please enter the content!" v-model="name">
+        <template slot="prepend">email</template>
       </el-input>
     </el-row>
     <el-row>
-      <el-input type="password" placeholder="请输入内容" v-model="password">
-        <template slot="prepend">密码</template>
+      <el-input type="password" placeholder="please enter the content!" v-model="password">
+        <template slot="prepend">password</template>
       </el-input>
     </el-row>
     <el-row>
       <el-col :span="3" :push="6">
-        <el-button type="primary"  @click="login" >登录</el-button>
+        <el-button type="primary"  @click="login" >Login</el-button>
       </el-col>
       <el-col :span="3" :push="8">
-        <el-button type="primary"  @click="registerAndLogin" >注册并登录</el-button>
+        <el-button type="primary"  @click="registerAndLogin" >RegisterAndLogin</el-button>
       </el-col>
     </el-row>
   </div>
@@ -56,7 +56,7 @@ export default{
       router.push('./hall');
     },
     initUserInfo(uid){
-      var ref = wilddog.sync().ref("/").child(uid);
+      var ref = wilddog.sync().ref("/user").child(uid);
       ref.child('win').set(0);
       ref.child('fail').set(0);
       ref.child('escape').set(0);
@@ -64,11 +64,6 @@ export default{
   },
   beforeCreate(){
     console.log('=================初始化wilddog连接=======================');
-    var config = {
-      authDomain: "draw-and-guess.wilddog.com",
-      syncURL: "https://draw-and-guess.wilddogio.com"
-    }
-    wilddog.initializeApp(config)
     console.log('=================初始化wilddog连接完毕=======================');
   }
 }
