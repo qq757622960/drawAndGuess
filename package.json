@@ -16,7 +16,8 @@
     "vue": "^2.1.0",
     "vue-router": "^2.1.0",
     "vue-resource": "^1.0.3",
-    "wilddog" : "^2.4.3"
+    "wilddog" : "^2.4.3",
+    "element-ui" : "^1.1.5"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",
