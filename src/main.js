@@ -14,6 +14,11 @@ Vue.use(VueRouter)
 Vue.use(ElementUI)
 
 require('wilddog')
+var config = {
+  authDomain: "draw-and-guess.wilddog.com",
+  syncURL: "https://draw-and-guess.wilddogio.com"
+}
+wilddog.initializeApp(config)
 
 // 定义路由
 const routes = [
