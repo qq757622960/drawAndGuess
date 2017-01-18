@@ -4,6 +4,8 @@ import VueResource from 'vue-resource'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 
+import Util from './libs/util'
+
 import Login from './components/Login.vue'
 import Hall from './components/Hall.vue'
 import './css/style.css'
@@ -35,6 +37,7 @@ const router = new VueRouter({
   ]
 })
 window.router = router
+window.Util = Util
 
 // 创建和挂载根实例。
 new Vue({
